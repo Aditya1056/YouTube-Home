@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../icons/youtube-favicon.png">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/nav-bar.css">
+    <link rel="stylesheet" href="./styles/side-bar.css">
+    <link rel="stylesheet" href="./styles/category-bar.css">
+    <link rel="stylesheet" href="./styles/grid.css">
+</head>
+<body>
+
+    <div class="nav-bar">
+
+        <div class="left-header">
+            <div class="bars-icon">
+                <img src="./icons/hamburger-menu.png" alt="hamburger-menu">
+            </div>
+            <div class="youtube-icon" >
+                <img src="./icons/youtube-logo.png" alt="youtube-logo" title="Youtube Home">
+                <div class="logo-mark">IN</div>
+            </div>
+        </div>
+
+
+        <div class="middle-header">
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="search-icon">
+                <img src="./icons/search.png" alt="search">
+                <div class="tooltip-1">Search</div>
+            </div>
+            <div class="voice-icon">
+                <img src="./icons/microphone.png">
+                <div class="tooltip-2">Search with your voice</div>
+            </div>
+        </div>
+
+
+        <div class="right-header">
+            <div class="create-icon">
+                <img src="./icons/add-video.png">
+                <div class="tooltip-3">Create</div>
+            </div>
+
+            <div class="notification-icon">
+                <img src="./icons/bell.png">
+                <div class="notification-count">2</div>
+                <div class="tooltip-4">Notifications</div>
+            </div>
+
+            <div class="features-icon">
+                <img src="./icons/features.png">
+                <div class="tooltip-5">Explore</div>
+            </div>
+
+            <div class="profile-pic">
+                <img src="./icons/A_letter2.jpg">
+                <div class="tooltip-6">Your Profile</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="side-bar">
+
+        <div class="side-bar-item default-home" title="Home">
+            <div class="side-bar-icon">
+                <img src="./icons/home.png">
+            </div>
+            <div class="side-bar-name">
+                <p>Home</p>
+            </div>
+        </div>
+
+        <div class="side-bar-item" title="Trending">
+            <div class="side-bar-icon">
+                <img src="./icons/trending.png">
+            </div>
+            <div class="side-bar-name">
+                <p>Trending</p>
+            </div>
+        </div>
+
+        <div class="side-bar-item" title="Shorts">
+            <div class="side-bar-icon">
+                <img src="./icons/shorts.png">
+            </div>
+            <div class="side-bar-name">
+                <p>Shorts</p>
+            </div>
+        </div>
+
+        <div class="side-bar-item" title="Subscriptions">
+            <div class="side-bar-icon">
+                <img src="./icons/subscriptions.png">
+            </div>
+            <div class="side-bar-name">
+                <p>Subscriptions</p>
+            </div>
+        </div>
+
+        <div class="dividers">
+            <hr>
+        </div>
+
+        <div class="side-bar-item" title="Library">
+            <div class="side-bar-icon">
+                <img src="./icons/library.png">
+            </div>
+            <div class="side-bar-name">
+                <p>Library</p>
+            </div>
+        </div>
+
+        <div class="side-bar-item" title="History">
+            <div class="side-bar-icon">
+                <img src="./icons/history.png">
+            </div>
+            <div class="side-bar-name">
+                <p>History</p>
+            </div>
+        </div>
+
+        <div class="side-bar-item" title="Watch later">
+            <div class="side-bar-icon">
+                <img src="./icons/watchlater.png">
+            </div>
+            <div class="side-bar-name">
+                <p>Watch later</p>
+            </div>
+        </div>
+
+        <div class="side-bar-item" title="Liked videos">
+            <div class="side-bar-icon">
+                <img src="./icons/liked.png">
+            </div>
+            <div class="side-bar-name">
+                <p>Liked videos</p>
+            </div>
+        </div>
+        
+        <div class="dividers">
+            <hr>
+        </div>
+
+        <div class="sidebar-subscription-header">
+            <p>Subscriptions</p>
+        </div>
+        
+        <div class="side-bar-item" title="Ohara">
+            <div class="side-bar-pic">
+                <img src="./channel_pictures/channelpic-2.jpg">
+            </div>
+            <div class="side-bar-name">
+                <p>Ohara</p>
+                <div class="side-bar-dots">
+                    <b>&#8226;</b>
+                </div>
+            </div>
+        </div>
+
+        <div class="side-bar-item" title="Dhruv Rathee">
+            <div class="side-bar-pic">
+                <img src="./channel_pictures/channelpic-1.jpg">
+            </div>
+            <div class="side-bar-name">
+                <p>Dhruv Rathee</p>
+                <div class="side-bar-dots">
+                    <b>&#8226;</b>
+                </div>
+            </div>
+        </div>
+
+        <div class="side-bar-item" title="take U forward">
+            <div class="side-bar-pic">
+                <img src="./channel_pictures/channelpic-4.jpg">
+            </div>
+            <div class="side-bar-name">
+                <p>take U forward</p>
+                <div class="side-bar-dots">
+                    <b>&#8226;</b>
+                </div>
+            </div>
+        </div>
+
+        <div class="side-bar-item" title="Web Dev Simplified">
+            <div class="side-bar-pic">
+                <img src="./channel_pictures/channelpic-7.jpg">
+            </div>
+            <div class="side-bar-name">
+                <p>Web Dev Simpl..</p>
+            </div>
+        </div>
+
+        <div class="side-bar-item" title="Crunchyroll Collection">
+            <div class="side-bar-pic">
+                <img src="./channel_pictures/channelpic-11.jpg">
+            </div>
+            <div class="side-bar-name">
+                <p>Crunchyroll Col..</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="categories">
+        <div class="suggestion-names default-all">All</div>
+        <div class="suggestion-names">Music</div>
+        <div class="suggestion-names">Cricket</div>
+        <div class="suggestion-names">Movies</div>
+        <div class="suggestion-names">Streaming</div>
+        <div class="suggestion-names">Sports</div>
+        <div class="suggestion-names">C++</div>
+        <div class="suggestion-names">Gaming</div>
+        <div class="suggestion-names">Action</div>
+        <div class="suggestion-names">History</div>
+        <div class="suggestion-names">Computer Science</div>
+    </div>
+
+    <div class="grid-box">
+
+        <!-- ad -->
+
+        <div class="video-preview ad-box">
+
+            <div class="video-thumbnail-img">
+                <img src="./thumbnails/ad.jpg">
+            </div>
+
+            <div class="video-description">
+                <div class="video-channel-pic">
+                </div>
+                <div class="video-text">
+                    <div class="video-title">
+                        Ad - Start your Data Science journey
+                    </div>
+                    <div class="video-channel-name">Master Data Science & Analytics as you learn SQL, Excel, Python, statistics & optimization
+                    </div>
+                    <div class="video-stats"><strong>Ad</strong> <b>&#8729;</b> upGrad Campus
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 1 -->
+
+        <div class="video-preview">
+
+            <div class="video-thumbnail-img">
+                <img src="./thumbnails/thumbnail-1.webp">
+                <div class="video-time">18:35</div>
+            </div>
+
+            <div class="video-description">
+                <div class="video-channel-pic">
+                    <img src="./channel_pictures/channelpic-1.jpg">
+                </div>
+                <div class="video-text">
+                    <div class="video-title">
+                        The Bermuda Triangle Mystery | What is the Secret? | Dhruv Rathee
+                    </div>
+                    <div class="video-channel-name">Dhruv Rathee <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class="video-stats">12M views <b>&#8729;</b> 1 year ago
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2 -->
+
+        <div class="video-preview">
+
+            <div class="video-thumbnail-img">
+                <img src="./thumbnails/thumbnail-2.webp">
+                <div class="video-time">15:48</div>
+            </div>
+
+            <div class="video-description">
+                <div class="video-channel-pic">
+                    <img src="./channel_pictures/channelpic-2.jpg">
+                </div>
+                <div class="video-text">
+                    <div class="video-title">
+                        What Would Happen If Gear 5 Luffy Was At Marineford?
+                    </div>
+                    <div class="video-channel-name">Ohara <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class="video-stats">282k views <b>&#8729;</b> 1 day ago
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 -->
+
+        <div class="video-preview">
+
+            <div class="video-thumbnail-img">
+                <img src="./thumbnails/thumbnail-3.webp">
+                <div class="video-time">1:14:56</div>
+            </div>
+
+            <div class="video-description">
+                <div class="video-channel-pic">
+                    <img src="./channel_pictures/channelpic-3.jpg">
+                </div>
+                <div class="video-text">
+                    <div class="video-title">
+                        $1 vs $500,000 Plane Ticket!
+                    </div>
+                    <div class="video-channel-name">MrBeast <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class="video-stats">13M views <b>&#8729;</b> 7 hours ago
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4 -->
+
+        <div class="video-preview">
+
+            <div class="video-thumbnail-img">
+                <img src="./thumbnails/thumbnail-4.webp">
+                <div class="video-time">28:12</div>
+            </div>
+
+            <div class="video-description">
+                <div class="video-channel-pic">
+                    <img src="./channel_pictures/channelpic-4.jpg">
+                </div>
+                <div class="video-text">
+                    <div class="video-title">
+                        Set Matrix Zeroes | O(1) Space Approach | Brute - Better - Optimal
+                    </div>
+                    <div class="video-channel-name">take U forward <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class="video-stats">6.2K views <b>&#8729;</b> 4 days ago
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5 -->
+
+        <div class="video-preview">
+
+            <div class="video-thumbnail-img">
+                <img src="./thumbnails/thumbnail-5.webp">
+                <div class="video-time">1:02</div>
+            </div>
+
+            <div class="video-description">
+                <div class="video-channel-pic">
+                    <img src="./channel_pictures/channelpic-5.jpg">
+                </div>
+                <div class="video-text">
+                    <div class="video-title">
+                        Title - Haikyuu Fan Animation | Kageyama's and Hinata's Goodbye (Manga Spoilers)
+                    </div>
+                    <div class="video-channel-name">Eloair
+                    </div>
+                    <div class="video-stats">77K views <b>&#8729;</b> 8 months ago
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 6 -->
+
+        <div class="video-preview">
+
+            <div class="video-thumbnail-img">
+                <img src="./thumbnails/thumbnail-6.webp">
+                <div class="video-time">9:22</div>
+            </div>
+
+            <div class="video-description">
+                <div class="video-channel-pic">
+                    <img src="./channel_pictures/channelpic-6.jpg">
+                </div>
+                <div class="video-text">
+                    <div class="video-title">
+                        Title - Indian Sports Honours 2023 | Couple goals from Virat Kohli & Anushka Sharma
+                    </div>
+                    <div class="video-channel-name">Star Sports <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class="video-stats">3M views <b>&#8729;</b> 6 days ago
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 7 -->
+
+        <div class="video-preview">
+
+            <div class="video-thumbnail-img">
+                <img src="./thumbnails/thumbnail-7.webp">
+                <div class="video-time">10:05</div>
+            </div>
+
+            <div class="video-description">
+                <div class="video-channel-pic">
+                    <img src="./channel_pictures/channelpic-7.jpg">
+                </div>
+                <div class="video-text">
+                    <div class="video-title">
+                        Learn JSON in 10 Minutes
+                    </div>
+                    <div class="video-channel-name">Web Dev Simplified <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class="video-stats">2.4M views <b>&#8729;</b> 4 years ago
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 8 -->
+
+        <div class="video-preview">
+
+            <div class="video-thumbnail-img">
+                <img src="./thumbnails/thumbnail-8.webp">
+                <div class="video-time">21:15</div>
+            </div>
+
+            <div class="video-description">
+                <div class="video-channel-pic">
+                    <img src="./channel_pictures/channelpic-8.jpg">
+                </div>
+                <div class="video-text">
+                    <div class="video-title">
+                        Formula 1 Racing | How the World's Most Dangerous Sport Works? | Dhruv Rathee
+                    </div>
+                    <div class="video-channel-name">Dhruv Rathee <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class="video-stats">2.9M views <b>&#8729;</b> 10 days ago
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 9 -->
+
+        <div class="video-preview">
+
+            <div class="video-thumbnail-img">
+                <img src="./thumbnails/thumbnail-9.webp">
+                <div class="video-time">6:29</div>
+            </div>
+
+            <div class="video-description">
+                <div class="video-channel-pic">
+                    <img src="./channel_pictures/channelpic-9.jpg">
+                </div>
+                <div class="video-text">
+                    <div class="video-title">
+                        Dope Tech: Better than Expected!
+                    </div>
+                    <div class="video-channel-name">Marques Brownlee <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class="video-stats">1.8M views <b>&#8729;</b> 5 days ago
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 10 -->
+
+        <div class="video-preview">
+
+            <div class="video-thumbnail-img">
+                <img src="./thumbnails/thumbnail-10.webp">
+                <div class="video-time">24:54</div>
+            </div>
+
+            <div class="video-description">
+                <div class="video-channel-pic">
+                    <img src="./channel_pictures/channelpic-10.jpg">
+                </div>
+                <div class="video-text">
+                    <div class="video-title">
+                        12 Future Inventions Soon Available To Everyone !
+                    </div>
+                    <div class="video-channel-name">TechJoint
+                    </div>
+                    <div class="video-stats">212K views <b>&#8729;</b> 2 weeks ago
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 11 -->
+
+        <div class="video-preview">
+
+            <div class="video-thumbnail-img">
+                <img src="./thumbnails/thumbnail-11.webp">
+                <div class="video-time">2:04</div>
+            </div>
+
+            <div class="video-description">
+                <div class="video-channel-pic">
+                    <img src="./channel_pictures/channelpic-11.jpg">
+                </div>
+                <div class="video-text">
+                    <div class="video-title">
+                        Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc | OFFICIAL TRAILER
+                    </div>
+                    <div class="video-channel-name">Crunchyroll Collection <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class="video-stats">1.3M views <b>&#8729;</b> 1 day ago
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+</html>

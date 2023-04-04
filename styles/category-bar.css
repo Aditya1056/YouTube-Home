@@ -1,0 +1,43 @@
+.categories{
+
+    width:81%;
+    height:9%;
+    /* border:1px solid grey; */
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top:7%;
+    right:0;
+    background-color:rgb(255, 255, 255);
+    padding-left:15px;
+    padding-right:25px;
+    flex-shrink:0;
+    z-index:1;
+    
+}
+.suggestion-names{
+    /* border:1px solid black; */
+    display:flex;
+    align-items:center;
+    color:black;
+    background-color:rgb(228, 228, 228);
+    font-size: 15px;
+    font-weight:500;
+    padding:6px 11px 6px 11px;
+    border-radius:6px;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition:background-color 0.2s, box-shadow 0.2s, color 0.2s;
+}
+
+.default-all{
+    background-color:rgb(0, 0, 0);
+    color: white;
+}
+
+.suggestion-names:hover{
+    color:black;
+    background-color: rgb(199, 199, 199);
+    box-shadow: inset 0 0 0 .5px rgb(198, 198, 198);
+}
